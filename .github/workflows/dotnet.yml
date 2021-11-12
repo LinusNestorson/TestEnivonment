@@ -14,6 +14,7 @@ jobs:
       url: https://github.com
 
     steps:
+    - name: deploy
     - uses: actions/checkout@v2
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
